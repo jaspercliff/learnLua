@@ -1,9 +1,10 @@
-local a = 90
+local a = 35
 
 if a < 20 then
 	print("less than 20")
-elseif a < 40 then
-	print("less than 40")
+	-- and or not
+elseif a < 40 and a > 30 then
+	print("less than 40 and more than 30")
 else
 	if a > 80 then
 		print("more than 80 ")

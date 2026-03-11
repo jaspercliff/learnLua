@@ -5,7 +5,7 @@ end
 print(add(1, 2))
 
 -- 函数可以作为参数传递 匿名函数赋值
--- 可变参数
+-- 可变参数 ...
 local myprint = function(...)
 	print(...)
 end
